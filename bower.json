@@ -1,0 +1,24 @@
+{
+  "name": "dx-theme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Open source theme for the Predix Design System",
+  "main": "px-theme-styles.html",
+  "homepage": "https://github.com/dxelements/dx-theme.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sass",
+    "*.md",
+    "gulpfile.js"
+  ],
+  "dependencies": {
+    "polymer": "^2.6.0"
+  },
+  "devDependencies": {
+    "px-defaults-design": "^2.0.3",
+    "px-mixins-design": "^1.2.0",
+    "dx-colors-design": "dxelements/dx-colors-design^1.0.0"
+  }
+}
